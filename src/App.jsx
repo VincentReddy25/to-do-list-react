@@ -61,6 +61,7 @@ export default function App() {
                     type="text"
                     value={newTask}
                     onChange={(e) => setNewTask(e.target.value)}
+                    placeholder="Enter new task"
                 />
                 <button className="green" onClick={addTask}>Add</button> <br />
                 <p id="wrongInputMessage"></p>

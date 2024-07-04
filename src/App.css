@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     overflow-x: hidden;
-    background: #000;
+    background: linear-gradient(30deg, black, rgb(93, 93, 93), black) no-repeat center/cover fixed;
 }
 
 body button {
